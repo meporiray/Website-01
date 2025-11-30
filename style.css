@@ -95,6 +95,7 @@ p {
 .logo {
     font-size: 32px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .logo span {
@@ -342,3 +343,4 @@ hr {
     border: none;
     cursor: pointer;
 }
+
