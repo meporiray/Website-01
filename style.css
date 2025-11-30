@@ -209,6 +209,7 @@ p {
 .skills-grid {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     gap: 40px;
 }
@@ -221,8 +222,8 @@ p {
     border-radius: 5px;
     text-align: left;
     transition: transform 0.3s;
-    width: 700px;
-    height: 320px;
+    width: 260px;
+    height: 350px;
     cursor: pointer;
     transition: 0.5s ease;
 }
@@ -249,6 +250,7 @@ p {
 
 .resume-grid {
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -259,6 +261,9 @@ p {
 
 .resume-item {
     margin-bottom: 20px;
+    width: 600px;
+    height: 150px;
+    
 }
 
 .resume-sub {
@@ -288,7 +293,7 @@ hr {
 .footer-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 .social-icons a {
