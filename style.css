@@ -229,8 +229,6 @@ p {
 }
 .skill-card:hover {
     transform: scale(1.1);
-    border: 1px solid #fd6e0a;
-    box-shadow: none;
 }
 
 .skill-card img {
@@ -334,4 +332,5 @@ hr {
     border: none;
     cursor: pointer;
 }
+
 
