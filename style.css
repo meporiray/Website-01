@@ -207,10 +207,8 @@ p {
 }
 
 .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 260px 260px);
     gap: 40px;
 }
 
@@ -332,5 +330,6 @@ hr {
     border: none;
     cursor: pointer;
 }
+
 
 
