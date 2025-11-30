@@ -110,14 +110,14 @@ p {
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: contain;
+    background-size: 700px;
     
     position: relative;
-    height: 550px;
+    height: 600px;
 }
 
 .hero-content {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .greeting {
@@ -128,7 +128,7 @@ p {
 }
 
 .hero-image {
-    width: 45%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -137,8 +137,8 @@ p {
 }
 
 .hero-image img {
-    width: 100%;
     max-width: 450px;
+    margin-left: 250px;
     display: block;
 }
 
@@ -208,8 +208,8 @@ p {
 
 .skills-grid {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
 }
