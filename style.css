@@ -52,7 +52,7 @@ p {
 .btn-primary:hover {
     background-color: green;
     color: #fff;
-    border: none;
+    border: 2px solid green;
 }
 
 .btn-outline {
@@ -334,3 +334,4 @@ hr {
     border: none;
     cursor: pointer;
 }
+
