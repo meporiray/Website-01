@@ -124,11 +124,11 @@ p {
     background-color: #fff8f3;    
     position: relative;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 112px;
 }
 
 .hero-content {
-    max-width: 40%;
+    max-width: 46%;
 }
 
 .greeting {
@@ -343,4 +343,5 @@ hr {
     border: none;
     cursor: pointer;
 }
+
 
